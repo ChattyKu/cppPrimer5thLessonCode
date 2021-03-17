@@ -1,0 +1,3 @@
+text.txt file detail is 
+123
+456 789 the quick red fox jumps over the slow red turtle

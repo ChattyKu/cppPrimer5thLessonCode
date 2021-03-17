@@ -1,0 +1,14 @@
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <string>
+
+int main()
+{
+	std::vector<int> iVec = {1,2,3,4,5,6,7,8,9,10};
+	
+	auto res = std::find(iVec.begin(), iVec.end(), 9);
+	auto res1 = std::accumulate(iVec.cbegin(), iVec.cend(), 0);
+	auto res2 = std::count(iVec.cbegin(), iVec.cend(), 0);
+	
+}
